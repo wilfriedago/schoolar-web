@@ -1,7 +1,7 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react'
 
 import { ApiConstants } from '@/shared/constants'
-import type { ApiResponse } from '@/shared/types'
+import type { ApiResponse } from '@/shared/interfaces'
 
 import type { CreateGroupDTO, Group, UpdateGroupDTO } from './groups.types'
 

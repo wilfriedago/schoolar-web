@@ -1,5 +1,5 @@
 import type { Course } from '@/features/courses'
-import type { Traceable } from '@/shared/types'
+import type { Traceable } from '@/shared/interfaces'
 
 export interface Subject extends Traceable {
   name: string

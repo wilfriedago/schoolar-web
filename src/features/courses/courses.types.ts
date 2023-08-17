@@ -1,7 +1,7 @@
 import type { Group } from '@/features/groups'
 import type { Session } from '@/features/sessions'
 import type { Subject } from '@/features/subjects'
-import type { Traceable } from '@/shared/types'
+import type { Traceable } from '@/shared/interfaces'
 
 export interface Course extends Traceable {
   name: string

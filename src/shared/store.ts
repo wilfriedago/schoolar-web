@@ -6,15 +6,13 @@ import { classroomsApi } from '@/features/classrooms'
 import { coursesApi } from '@/features/courses'
 import { groupsApi } from '@/features/groups'
 import { subjectsApi } from '@/features/subjects'
-import { uiReducer } from '@/features/ui'
 
 const reducers = {
   [AuthApi.reducerPath]: AuthApi.reducer,
   [groupsApi.reducerPath]: groupsApi.reducer,
   [classroomsApi.reducerPath]: classroomsApi.reducer,
   [subjectsApi.reducerPath]: subjectsApi.reducer,
-  [coursesApi.reducerPath]: coursesApi.reducer,
-  ui: uiReducer
+  [coursesApi.reducerPath]: coursesApi.reducer
   // Add your other reducers here
 }
 
