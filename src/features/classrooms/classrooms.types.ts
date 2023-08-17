@@ -1,4 +1,4 @@
-import type { Traceable } from '@/shared/types'
+import type { Traceable } from '@/shared/interfaces'
 
 export interface Classroom extends Traceable {
   name: string

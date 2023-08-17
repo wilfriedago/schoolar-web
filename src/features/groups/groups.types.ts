@@ -1,6 +1,6 @@
 import type { Course } from '@/features/courses'
 import type { Student } from '@/features/students'
-import type { Traceable } from '@/shared/types'
+import type { Traceable } from '@/shared/interfaces'
 
 export interface Group extends Traceable {
   name: string
